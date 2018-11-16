@@ -58,7 +58,7 @@ angular.module('app.routes', [])
   })
 
   .state('tabsController.eventDetail', {
-    url: '/page9',
+    url: '/page9/:title/:image',
     views: {
       'tab2': {
         templateUrl: 'templates/eventDetail.html',
